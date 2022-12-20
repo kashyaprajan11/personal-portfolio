@@ -6,6 +6,7 @@ export default [
     _type: "project",
     _updatedAt: "2022-11-17T11:05:05Z",
     linkToBuild: "https://hacker-news-4vhr5wcgo-kashyaprajan11.vercel.app/",
+    linkToGithub: "https://github.com/kashyaprajan11/hacker-news-clone",
     summary:
       "Built a Hacker News Clone with Hacker News Api and ReactJs. Built the project entirely from scratch & closely worked with various principles of component based rendering. Created custom hooks. Created completely responsive application using CSS and Media Queries.",
     title: "Hacker News Clone",
@@ -17,6 +18,7 @@ export default [
     _type: "project",
     _updatedAt: "2022-11-17T11:07:12Z",
     linkToBuild: "https://wordle-lkvo0wwec-kashyaprajan11.vercel.app/",
+    linkToGithub: "https://github.com/kashyaprajan11/Wordle",
     summary:
       "Created the viral game “Wordle” from The New York Times Built the project entirely from scratch & closely worked with various principles of component based rendering.",
     title: "Wordle",
@@ -28,6 +30,7 @@ export default [
     _type: "project",
     _updatedAt: "2022-11-17T11:10:11Z",
     linkToBuild: "https://netflix-clone-8nrx6rtls-kashyaprajan11.vercel.app/",
+    linkToGithub: "https://github.com/kashyaprajan11/Netflix-Clone",
     summary:
       "Created Netflix Clone using ReactJs. Worked with different npm packages to play the trailer of the movie selected. Created a way to directly play youtube trailer inside the app.",
     title: "Netflix Clone",

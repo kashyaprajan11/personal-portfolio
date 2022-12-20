@@ -4,6 +4,7 @@ import About from "./components/About";
 import WorkExperience from "./components/WorkExperience";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
+import ContactInfo from "./components/ContactInfo";
 import socials from "./json/social";
 
 function App() {
@@ -14,17 +15,20 @@ function App() {
       <section className="snap-start">
         <Hero />
       </section>
-      <section className="snap-center">
+      <section id="about" className="snap-center">
         <About />
       </section>
-      <section className="snap-center">
+      <section id="experiences" className="snap-center">
         <WorkExperience />
       </section>
-      <section className="snap-start">
+      <section id="skills" className="snap-start">
         <Skills />
       </section>
-      <section className="snap-start">
+      <section id="projects" className="snap-start">
         <Projects />
+      </section>
+      <section id="contact" className="snap-start">
+        <ContactInfo />
       </section>
     </div>
   );
