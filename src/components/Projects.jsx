@@ -4,7 +4,6 @@ import projects from "../json/projects";
 import wordle from "../assets/wordle.png";
 import netflix from "../assets/netflix.png";
 import hacker_news from "../assets/hacker_news.png";
-import { Link, Navigate } from "react-router-dom";
 
 function Projects() {
   const images = [hacker_news, wordle, netflix];
@@ -20,7 +19,7 @@ function Projects() {
         {" "}
         Projects
       </h3>
-      <div className="relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#f7ab0a]/80">
+      <div className="relative w-full h-[100vh] flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#f7ab0a]/80">
         {projects.map((project, i) => (
           <div
             key={i}
@@ -40,9 +39,15 @@ function Projects() {
                 </span>{" "}
                 {project?.title}
               </h4>
-              <a target="_blank" href={project.linkToBuild}>
-                LIVE
+              <div className="flex justify-between">
+              <a target="_blank" className="underline uppercase transition-all ease-in-out duration-250 hover:text-[#f7ab0a]" href={project.linkToBuild}>
+                live project
               </a>
+              <a target="_blank" className="underline uppercase hover:text-[#f7ab0a] " href={project.linkToGithub} >
+                github
+              </a>
+              </div>
+              
               <p className="text-center">{project?.summary}</p>
             </div>
           </div>
