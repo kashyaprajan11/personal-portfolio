@@ -1,5 +1,22 @@
 export default [
   {
+    _createdAt: "",
+    _id: "b0e70f9d-60bc-4ef7-8fd3-a183255059e5",
+    _rev: "ljxKvzo6Ft3JJjdVmA0hRp",
+    _type: "experience",
+    _updatedAt: "2022-11-17T07:40:11Z",
+    company: "Recipeat",
+    dateStarted: "2023-01-01",
+    isCurrentlyWorkingHere: true,
+    jobTitle: "Frontend Developer",
+    points: [
+      "Collabrated with designer to make robust React Components",
+      "Created various email templates for listmonk",
+      "Made different React components for Recipay, a hiring platform for hospitality industry",
+      "Worked closely with the CTO of the company on Whatsaap bot to create Resumes",
+    ],
+  },
+  {
     _createdAt: "2022-11-17T07:40:11Z",
     _id: "b0e70f9d-60bc-4ef7-8fd3-a183255059e3",
     _rev: "ljxKvzo6Ft3JJjdVmA0hRl",
@@ -7,7 +24,8 @@ export default [
     _updatedAt: "2022-11-17T07:40:11Z",
     company: "Viseven",
     dateStarted: "2022-10-17",
-    isCurrentlyWorkingHere: true,
+    dateEnded: "28-12-2022",
+    isCurrentlyWorkingHere: false,
     jobTitle: "Frontend Developer",
     points: [
       "Created templates for eWizard",

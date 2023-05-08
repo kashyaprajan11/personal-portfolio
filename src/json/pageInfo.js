@@ -7,7 +7,7 @@ export default [
     _updatedAt: "2022-11-17T06:59:56Z",
     address: "Jharkhand, India",
     backgroundInformation:
-      "Hello. My name is Rajan and I’m a self taught javascript programmer. I landed a job entirely on the basis of my skills. This has all happened as I’m very intrigued and genuinely interested in Javascript and development. I’m in a state where I feel like I should be grilled by problems everyday to even sharpen my skills. I can assure you I can complete tasks within time and will add value to your team if given a chance. I started to freelance work in Upwork and linkedin and always knee to move ahead with such companies and great work.",
+      "Experienced Front End Developer with a strong focus on ReactJS, HTML, and CSS. Passionate about creating intuitive and visually appealing user interfaces, I have a solid foundation in frontend technologies and a year of hands-on industry experience. I thrive in collaborative environments, actively contributing to cross-functional teams to deliver high-quality products that meet user needs. Skilled in translating design concepts into responsive and accessible code, I am dedicated to staying up-to-date with emerging trends and best practices in the ever-evolving frontend landscape. With a keen eye for detail and a commitment to delivering exceptional user experiences, I am eager to leverage my skills to drive innovation and success in your organization.",
     email: "rkashyap251@gmail.com",
     _type: "image",
     name: "Rajan Kashyap",
