@@ -2,12 +2,14 @@ import React from "react";
 import ExperienceCard from "./ExperienceCard";
 import { motion } from "framer-motion";
 import experiences from "../json/experience";
+import recipeat from "../assets/recipeat.png";
 import avid from "../assets/avid.png";
 import viseven from "../assets/viseven.png";
 import codingHustle from "../assets/codinghustle.jpg";
 
 function WorkExperience() {
-  const images = [viseven, codingHustle, avid];
+  const images = [recipeat, viseven, codingHustle, avid];
+  console.log(experiences);
   return (
     <motion.div
       initial={{ opacity: 0 }}
